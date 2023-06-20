@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_gravity="center"
+	tools:context=".ui.gallery.GalleryFragment">
+
+	<LinearLayout
+		android:id="@+id/transitionContainer"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:padding="40dp"
+		tools:context=".Nutrition">
+
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Account Settings"
+			android:textSize="30sp"
+			android:textColor="@color/black"
+			android:layout_gravity="center"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="20dp"
+			android:textStyle="bold"/>
+
+
+		<TextView
+			android:id="@+id/prof_firstname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Firstname: "
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:layout_gravity="left"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="20dp" />
+
+		<TextView
+			android:id="@+id/prof_lastname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Lastname: "
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:layout_gravity="left"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="20dp" />
+
+		<TextView
+			android:id="@+id/prof_contact"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Contact: "
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:layout_gravity="left"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="20dp" />
+
+		<TextView
+			android:id="@+id/prof_usertype"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="User Type: "
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:layout_gravity="left"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="20dp" />
+
+
+		<EditText
+			android:id="@+id/ed_fname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="First Name"
+			android:textSize="24dp"
+			android:layout_below="@+id/texttitle"
+			android:layout_gravity="center"
+			android:inputType="textPersonName"
+			android:visibility="gone"/>
+
+		<EditText
+			android:id="@+id/ed_lastname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Last Name"
+			android:textSize="24dp"
+			android:layout_below="@+id/firstname"
+			android:layout_gravity="center"
+			android:inputType="textPersonName"
+			android:visibility="gone"/>
+
+		<EditText
+			android:id="@+id/ed_contact"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Contact"
+			android:textSize="24dp"
+			android:layout_below="@+id/lastname"
+			android:layout_gravity="center"
+			android:inputType="textEmailAddress"
+			android:visibility="gone"/>
+
+
+		<EditText
+			android:id="@+id/ed_username"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Username"
+			android:textSize="24dp"
+			android:layout_below="@+id/email"
+			android:layout_gravity="center"
+			android:inputType="textPersonName"
+			android:visibility="gone"/>
+
+		<EditText
+			android:id="@+id/ed_password"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Password"
+			android:textSize="24dp"
+			android:layout_below="@+id/username"
+			android:layout_gravity="center"
+			android:inputType="textPassword"
+			android:visibility="gone"/>
+		<EditText
+			android:id="@+id/ed_conpassword"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Confirm Password"
+			android:textSize="24dp"
+			android:layout_below="@+id/password"
+			android:layout_gravity="center"
+			android:inputType="textPassword"
+			android:visibility="gone"/>
+
+		<Button
+			android:id="@+id/edit_info"
+			android:layout_width="208dp"
+			android:layout_height="48dp"
+			android:layout_marginTop="48dp"
+			android:text="Update Information"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.507"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/ed_conpassword"
+			android:layout_gravity="center"
+			app:layout_constraintVertical_bias="0.0" />
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center">
+			<Button
+				android:id="@+id/cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Cancel"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.507"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/btn_login"
+				android:layout_gravity="center"
+				app:layout_constraintVertical_bias="0.0"
+				android:visibility="gone"/>
+
+			<Button
+				android:id="@+id/submit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginLeft="30dp"
+				android:text="Submit"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.507"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/btn_login"
+				app:layout_constraintVertical_bias="0.0"
+				android:visibility="gone"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Online Bus Ticketing App</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Map</string>
+    <string name="menu_gallery">Account Settings</string>
+    <string name="menu_slideshow">Log Out</string>
+    <string name="invalid_name">Empty Fields</string>
+    <string name="invalid_lname">Empty Fields</string>
+    <string name="invalid_empty">Empty Fields</string>
+    <string name="invalid_password">Enter Password</string>
+    <string name="invalid_confirmpass">Password does not match</string>
+    <string name="invalid_pass">Minimum of 8 characters</string>
+    <string name="Special_char">Special characters not allowed</string>
+    <string name="invalid_email">Enter a valid email</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_cdashboard">cDashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="quickstart_navigation_start_checkout_with_orders">Client Side Only Sample</string>
+    <string name="quickstart_navigation_start_checkout_with_token_v2">Server Side Sample</string>
+    <string name="quickstart_navigation_start_payment_button">Payment Button Sample</string>
+
+    <string name="orders_quick_start_activity_title">Orders Quick Start</string>
+    <string name="orders_quick_start_activity_configuration_options_title">Configure Client Side Integration</string>
+    <string name="orders_quick_start_activity_configuration_user_action_label">User Action:</string>
+    <string name="orders_quick_start_activity_configuration_user_action_option_continue">Continue</string>
+    <string name="orders_quick_start_activity_configuration_user_action_option_pay_now">Pay Now</string>
+    <string name="orders_quick_start_activity_configuration_intent_label">Order Intent:</string>
+    <string name="orders_quick_start_activity_configuration_intent_option_capture">Capture</string>
+    <string name="orders_quick_start_activity_configuration_intent_option_authorize">Authorize</string>
+    <string name="orders_quick_start_activity_configuration_currency_code_label">Currency Code:</string>
+    <string name="orders_quick_start_activity_configuration_currency_code_option_usd">USD</string>
+    <string name="orders_quick_start_activity_configuration_currency_code_option_eur">EUR</string>
+    <string name="orders_quick_start_activity_configuration_currency_code_option_gbp">GBP</string>
+    <string name="orders_quick_start_activity_items_title">Add Items To Your Order</string>
+    <string name="orders_quick_start_activity_items_add_button">+</string>
+    <string name="orders_quick_start_activity_items_error">At least one item is required</string>
+    <string name="orders_quick_start_activity_shipping_preference_title">Shipping Preferences</string>
+    <string name="orders_quick_start_activity_shipping_preference_label">Shipping Preference:</string>
+    <string name="orders_quick_start_activity_shipping_preference_option_get_from_file">Get From File</string>
+    <string name="orders_quick_start_activity_shipping_preference_option_no_shipping">No Shipping</string>
+    <string name="orders_quick_start_activity_shipping_preference_option_set_provided_address">Set Provided Address</string>
+    <string name="orders_quick_start_activity_shipping_callbacks_switch_label">Enable Shipping Callbacks?</string>
+    <string name="orders_quick_start_activity_submit_order_button">Place Order</string>
+    <string name="orders_quick_start_activity_created_item_quantity">x%1$s</string>
+
+    <string name="payment_button_quick_start_activity_title">Payment Button</string>
+    <string name="payment_button_quick_start_activity_payment_button_title">Payment Button</string>
+    <string name="payment_button_quick_start_activity_payment_button_description">To get a better understanding for how Payment Buttons work within the Checkout SDK, please observe the logs which are printed in Logcat, filtering on <i>PaymentButtonQuickStartActivity</i>.\n\nTo see other buttons or customize this one, please view the <i>activity_payment_button_quick_start</i> layout file.</string>
+
+    <string name="token_quick_start_activity_configuration_options_title">Configure Server Side Integration</string>
+    <string name="token_quick_start_activity_configuration_user_action_label">@string/orders_quick_start_activity_configuration_user_action_label</string>
+    <string name="token_quick_start_activity_configuration_user_action_option_continue">@string/orders_quick_start_activity_configuration_user_action_option_continue</string>
+    <string name="token_quick_start_activity_configuration_user_action_option_pay_now">@string/orders_quick_start_activity_configuration_user_action_option_pay_now</string>
+    <string name="token_quick_start_activity_configuration_intent_label">@string/orders_quick_start_activity_configuration_intent_label</string>
+    <string name="token_quick_start_activity_configuration_intent_option_capture">@string/orders_quick_start_activity_configuration_intent_option_capture</string>
+    <string name="token_quick_start_activity_configuration_intent_option_authorize">@string/orders_quick_start_activity_configuration_intent_option_authorize</string>
+    <string name="token_quick_start_activity_total_amount_hint">Total Amount</string>
+    <string name="token_quick_start_activity_total_amount_required">Total Amount Required</string>
+    <string name="token_quick_start_activity_submit_order_button">@string/orders_quick_start_activity_submit_order_button</string>
+
+    <string name="dialog_create_item_title">Create An Item</string>
+    <string name="dialog_create_item_name_hint">Item Name</string>
+    <string name="dialog_create_item_quantity_hint">Quantity</string>
+    <string name="dialog_create_item_amount_hint">Amount</string>
+    <string name="dialog_create_item_tax_amount_hint">Tax Amount</string>
+    <string name="dialog_create_item_category_label">Item Category:</string>
+    <string name="dialog_create_item_category_option_physical_goods">Physical Goods</string>
+    <string name="dialog_create_item_category_option_digital_goods">Digital Goods</string>
+    <string name="dialog_create_item_button">Create Item</string>
+    <string name="dialog_create_error_item_category">Item Category is required</string>
+    <string name="dialog_create_error_required">Required</string>
+
+</resources>
